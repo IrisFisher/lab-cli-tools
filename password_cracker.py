@@ -13,7 +13,7 @@ def find_password(check):
 
 with open('Ashley-Madison.txt') as f:
     contents = f.read()
-    options=contents.split()
+    passwords=contents.split()
 
-password=find_password(options)
+password=find_password(passwords)
 print('Password found:', password)
